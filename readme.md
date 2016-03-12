@@ -61,7 +61,7 @@ var_dump(
 
 // Let's search some data...
 $people = $rock->get('People/Search?name=Smith')->json();
-var_dump($promise);
+var_dump($people);
 
 
 // Easily consume the Rock RMS REST API resources with the following actions -
